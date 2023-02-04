@@ -22,7 +22,7 @@ void PrintArray(double[,] array)
         Console.WriteLine("");
     }
 }
-void ArMean (double[,] array)
+void ArithmeticMean (double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -42,7 +42,7 @@ Console.Write("m = ");
 int m = int.Parse(Console.ReadLine()!);
 Console.Write("n = ");
 int n = int.Parse(Console.ReadLine()!);
-double[,] Mass = new double[m, n];
-CreateArray(Mass);
-PrintArray(Mass);
-ArMean(Mass);
+double[,] mass = new double[m, n];
+CreateArray(mass);
+PrintArray(mass);
+ArithmeticMean(mass);
